@@ -48,9 +48,11 @@ class _ExamplePageState extends State<ExamplePage> {
                 headerTitle: 'Horizontal(x) Axis Only Eaxmple',
                 child: Ci360View(
                   xImageModel: Ci360ImageModel.horizontal(
-                    imageFolder: 'https://demoshow2023.s3.amazonaws.com/roam/',
+                    // imageFolder: 'https://demoshow2023.s3.amazonaws.com/roam/',
+                    imageFolder:
+                        'https://raw.githubusercontent.com/Frank1016/panorama_demo/main/assets/rotate/',
                     imageName: (index) => '$index.jpg',
-                    imagesLength: 1387,
+                    imagesLength: 151,
                   ),
                   options: Ci360Options(
                     swipeSensitivity: swipeSensitivity,
